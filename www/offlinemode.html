@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densityDpi=device-dpi">
+
+        <link rel="stylesheet" type="text/css" href="css/offlinemode.css">
+        <link rel="stylesheet" type="text/css" href="css/circle.css">
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/offlinemode.js"></script>
+        <title>HARP Beta</title>
+    </head>
+        
+    <body>
+    <!-- <body onload="onDeviceReady();"> -->
+        <div class="MainBackground">
+
+        <!-- LOADING SYMBOL -->
+        <!-- <img id="loadgif" class="loadgif" src="css\img\load.gif"> -->
+        <!--  -->
+
+        <!-- BLACK BG -->
+        <!-- <div id="blackbg" class="blackbg"></div> -->
+        <!--  -->
+        <!-- <div id="RSErrorContainer" class="basicForm purple Important">
+            <div id="RSErrorContent" class="basicMsgBoxContainer Important">
+                <div class="basicMsgBoxTitle error">
+                    <div class="basicMsgBoxTitleContent">ERROR</div>
+                </div>
+
+                <div class="basicMsgBoxMsgContainer">
+                    <div class="basicMsgBoxMsgContainerContent">
+                        <b>Connection Unsuccessful:</b> <br><br>
+                        Failed to download resources
+                    </div>
+                </div>
+
+
+
+                <div class="basicMsgBoxBtn Left">
+                    <div id="RSErrorBtnRetry" class="basicMsgBoxBtnContent">RETRY</div>
+                </div>
+                <div class="basicMsgBoxBtn Right">
+                    <div onclick="msgboxState('EXITMODE');" class="basicMsgBoxBtnContent">EXIT</div>
+                </div>
+            </div>
+        </div> -->
+        
+        <!--  -->
+
+        <!-- CONNECTING TO RESOURCES -->
+        <!-- <div id="ConnectionContainer" class="basicForm purple Important">
+            <img id="loadgif" class="loadgif" src="css\img\load.gif">
+            <div class="loadTitle">Downloading resources...</div>
+        </div> -->
+        <!-- ////////////////////// -->
+
+        
+
+        <!-- //////////// MAIN FORM //////////// -->
+        <div id="MainForm" class="basicForm purple">
+            <div class="FormStatusContainer">
+                <!-- <div id="WIFIsymbol" class="StatusIconContainer Left">
+                    <img src="img\wifi-symbol.png" class="StatusIconImg Invert">
+                </div> -->
+                <div id="GPSsymbol" class="StatusIconContainer">
+                    <img src="img\gps-symbol2.png" class="StatusIconImg Invert">
+                </div>
+            </div>
+        </div>
+        <!-- /////////////////////////////////// -->
+
+        <!-- SWITCH CONTENT -->
+        <div class="SwitchContainer">
+            <div id="Focus_REALTIME" class="SwitchBtn Left" onclick="switchFocus('REALTIME');">
+                <div id="Text_REALTIME" class="SwitchBtnContent">REALTIME</div>
+            </div>
+            <div id="Focus_SEARCH" class="SwitchBtn Right" onclick="switchFocus('SEARCH');">
+                <div id="Text_SEARCH" class="SwitchBtnContent">SEARCH</div>
+            </div>
+            <!-- <div id="Focus_MAP" class="SwitchBtn Right" onclick="switchFocus('MAP');">
+                <div id="Text_MAP"class="SwitchBtnContent">MAP</div>
+            </div>  -->
+        </div>
+        <!-- ////// -->
+        <!-- MAIN CONTENT -->
+        <div id="MainContent" class="MainContent Hidden">
+
+            <!-- <div id="GoogleMaps" class="GoogleMaps">Error loading Google Maps...</div> -->
+            <!--  -->
+            <div id="RealtimeContent" class="RealtimeContent">
+                
+                <!-- HOTEL SAMPLE -->
+               <!--  <div class="RTHotelContainer">
+                    <div class="RTHotelTitle">
+                        <div class="RTHotelTitleText">abcdefghijklmnopqrstuvwxyz26</div>
+                    </div>
+                    <div class="RTHotelDistance">
+                        <span class="RTHotelCompass">360&#176; NW</span>
+                    </div>
+                    <div class="RTRating">
+                        <div class="RTRatingText">4.5</div>
+                    </div>
+                </div>
+
+                <div class="RTHotelContainer">
+                    <div class="RTHotelTitle">
+                        <div class="RTHotelTitleText">abcdefghijklmnopqrstuvwxyz26</div>
+                    </div>
+                    <div class="RTHotelDistance">
+                        999 kilometers
+                        <span class="RTHotelCompass">360&#176; NW</span>
+                    </div>
+                    <div class="RTRating">
+                        <div class="RTRatingText">80%</div>
+                    </div>
+                </div> -->
+                <!--  -->
+            </div>
+            <!--  -->
+            <div id="SearchContent" class="SearchContent">
+                <div class="SCHeader">SEARCH:</div>
+                <div class="SCContainer">
+                    <input id="SC_SearchBox" class="SCInput"/>
+                    <div onclick="searchOffline();" class="SCBtn">
+                        <div class="SCBtnText">GO</div>
+                    </div>
+                </div>
+                <div id="SC_ResultsArea" class="SCResultsArea">
+                    <!-- SAMPLE -->
+                    <!-- <div class="RTHotelContainer">
+                        <div class="RTHotelTitle">
+                            <div class="RTHotelTitleText">abcdefghijklmnopqrstuvwxyz26</div>
+                        </div>
+                        <div class="RTHotelDistance">
+                            999 km
+                            <span class="RTHotelCompass">360&#176; NW</span>
+                        </div>
+                        <div class="RTRating">
+                            <div class="RTRatingText">4.5</div>
+                        </div>
+                    </div>
+
+                    <div class="RTHotelContainer">
+                        <div class="RTHotelTitle">
+                            <div class="RTHotelTitleText">abcdefghijklmnopqrstuvwxyz26</div>
+                        </div>
+                        <div class="RTHotelDistance">
+                            999 km
+                            <span class="RTHotelCompass">360&#176; NW</span>
+                        </div>
+                        <div class="RTRating">
+                            <div class="RTRatingText">4.5</div>
+                        </div>
+                    </div> -->
+                    <!--  -->
+                </div>
+            </div>
+        </div>
+        <!-- /////////// -->
+       
+        <!-- COMPASS -->
+        <div class="CompassContainer">
+            <div class="CompassCircleContainer"> 
+                <div id="CompassCircle" class="CompassCircle">
+                    <div class="CircleSymbols North">N</div>
+                    <div class="CircleSymbols West">W</div>
+                    <div class="CircleSymbols East">E</div>
+                    <div class="CircleSymbols South">S</div>
+
+                    <div class="CircleSymbols NorthWest">NW</div>
+                    <div class="CircleSymbols NorthEast">NE</div>
+                    <div class="CircleSymbols SouthEast">SE</div>
+                    <div class="CircleSymbols SouthWest">SW</div>
+
+                </div>  
+            </div>
+            <div class="CompassArrow">&#8593;</div>
+            <div id="CompassHeading" class="CompassHeading">0&#176;</div>
+            <img id="loadgif" onclick="msgboxState('OPENSETTINGS');" class="SettingsIcon" src="img\settings2.png">
+        </div>
+        <!-- ////////  -->
+
+        <!-- SETTINGS -->
+
+        <div id="SettingsForm" class="basicForm white Important Hidden">
+            <div class="SettingsHeader">
+                <div class="SettingsHeaderText">SETTINGS</div>
+
+                <div class="exitbtnContainer" onclick="msgboxState('EXITSETTINGS');">
+                    <div class="exitbtnContent">X</div>
+                </div>
+            </div>
+
+            
+
+            <div class="SettingsMainContent">
+                <div class="SettingsSection">
+                    <div class="SettingsSectionText">GENERAL</div>
+                </div>
+
+                <div class="SettingsOptContainer">
+                    <div class="SettingsOptTitle">Distance Unit</div>
+                    <div id="setting_unitConversion" class="SettingsOptBtn" onclick="setSettings('setting_unitConversion');"></div>
+                </div>
+
+                <div class="SettingsOptContainer">
+                    <div class="SettingsOptTitle">Search Radius</div>
+                    <div id="setting_searchRadius" class="SettingsOptBtn" onclick="setSettings('setting_searchRadius');"></div>
+                </div>
+
+                <div class="SettingsOptContainer">
+                    <div class="SettingsOptTitle">Hotel Rating Display</div>
+                    <div id="setting_switchRating" class="SettingsOptBtn" onclick="setSettings('setting_switchRating');"></div>
+                </div>
+
+                <div class="SettingsSection">
+                    <div class="SettingsSectionText">GPS</div>
+                </div>
+
+                <div class="SettingsOptContainer">
+                    <div class="SettingsOptTitle">High Accuracy</div>
+                    <div id="setting_gpsOptHighAccuracy" class="SettingsOptBtn" onclick="setSettings('setting_gpsOptHighAccuracy');"></div>
+                </div>
+
+                <!-- <div class="SettingsSection">
+                    <div class="SettingsSectionText">MAPS</div>
+                </div>
+
+                <div class="SettingsOptContainer">
+                    <div class="SettingsOptTitle">Travel Mode</div>
+                    <div id="setting_travelmode" class="SettingsOptBtn" onclick="setSettings('setting_travelmode');"></div>
+                </div> -->
+
+            </div>
+        </div>
+
+        <!-- //////// -->
+
+         <!-- SHOW HOTEL -->
+
+        <div id="ShowHotel" class="basicForm white Important Hidden">
+            
+            <div class="HotelContentContainer">
+                
+                <div id="HC_hotelname" class="HCHotelTitle">Hotel Title abcdefghijkl mnopqrstuvwxyz26</div>
+
+                <div class="HCDCContainer">
+                    <div id="HC_distance"class="HCDC Distance">999 kilometers</div>
+                    <div id="HC_direction" class="HCDC Compass">360&#176; Northwest</div>
+                </div>
+                <div class="HCRatingCircle">
+                    <div id="HC_circle" class="c100 p50 center big orange">
+                        <span id="HC_rating">50%</span>
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+
+                <div class="HCPeople">
+                    <b><span id="HC_users">99</span></b> user(s) have reviewed this place
+                </div>
+
+                <div id="HC_trackbtn" class="HCTrackBtnContainer">
+                    <div id="HC_trackbtntxt" class="HCTrackBtnText">TRACK</div>
+                </div>
+
+                <div class="HCLinksContainer">
+                    <div id="HC_website" class="HCLinks Website">VISIT WEBSITE</div>
+                    <div id="HC_googlemaps" class="HCLinks Google">RATE IN GOOGLE MAPS</div>
+                </div>
+
+
+                <div id="HC_address" class="HCAddress">Brgy 87, San Jose, Manlurip, Tacloban City, Philippines, 6500</div>
+
+                <div class="HCPhoneNumber"><b>Phone Number:</b> <span id="HC_phonenumber" class="HCPhoneNumberText">+63 995 884 9861</span></div>
+
+                <div class="HCReviewsHeader">REVIEWS</div>
+
+                <div id="HC_reviewsarea">
+                    <!-- SAMPLE -->
+                    <!-- <div class="HCReviewContainer">
+                        <div class="HCRating"></div>
+                        <div class="HCComment">abcdefghijklmnopqrstuvwxyz26</div>
+                        <div class="HCReviewName">Random Name lol</div>
+                        <div class="HCReviewDate">last month ago</div>
+                    </div>
+                    <div class="HCReviewContainer">
+                        <div class="HCComment">abcdefghijklmnopqrstuvwxyz26</div>
+                        <div class="HCReviewName">Random Name lol</div>
+                        <div class="HCReviewDate">last month ago</div>
+                    </div>
+                    <div class="HCReviewContainer">
+                        <div class="HCComment">abcdefghijklmnopqrstuvwxyz26</div>
+                        <div class="HCReviewName">Random Name lol</div>
+                        <div class="HCReviewDate">last month ago</div>
+                    </div> -->
+                    <!--  -->
+                </div>
+
+            </div>
+
+
+            <!-- HEADER -->
+
+            <div class="HotelHeader">
+                <div class="exitbtnContainer" onclick="msgboxState('EXITHOTEL');">
+                    <div class="exitbtnContent">X</div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ////////// -->
+
+
+
+        </div>
+    </body>
+</html>

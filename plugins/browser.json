@@ -1,0 +1,64 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-websql": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-locationservices": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-call-number": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "cordova-android-support-gradle-release": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "com.virtuoworks.cordova-plugin-canvascamera": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "cordova-plugin-googlemaps": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "io.cordova.harpbeta"
+    }
+  }
+}

@@ -1,0 +1,303 @@
+
+@font-face {
+    font-family:"Century Gothic";
+    src: url("font/GOTHIC.TTF") format('truetype');
+}
+
+
+body{
+	background-color:slateblue;
+	font-family:Century Gothic;
+	color:white;
+
+	/*-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;*/
+    user-select: none;
+}
+/*text{
+	user-select:none;
+}*/
+
+.maintitle{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+
+	width:60%;
+	height:90%;
+	
+	/*margin-left:20%;*/
+	/*margin-right:20%;*/
+
+
+	font-size:500%;
+	font-weight:bold;
+	letter-spacing:5px;
+
+}
+
+
+button{
+	font-family:Century Gothic;
+	font-weight:bold;
+	font-size:2.5vh;
+	color:white;
+
+
+	border-radius:5px;
+	border:none;
+
+	outline:none;
+
+	background-color:mediumseagreen;
+
+	width:100%;
+	height:10%;
+
+	margin-top:5%;
+	margin-bottom:5%;
+
+	box-shadow:0px 10px 5px gray;
+
+}
+button:active{
+	/*margin-top:6%;*/
+	box-shadow:0px 8px 5px gray;
+	background-color:darkgray;
+}
+
+
+
+input[type=text],input[type=password]{
+	margin-top:2%;
+	margin-bottom:2%;
+
+	border-radius:10px;
+	border:1px solid white;
+
+	font-family:default;
+	text-decoration:none;
+	font-size:100%;
+
+	outline:none;
+
+	text-align:center;
+
+	width:100%;
+	height:7%;
+
+	user-select:all !important;
+
+}
+/*input[type=text]:active, input[type=password]:active{
+	border:2px solid orange;
+}*/
+.logintitle{
+	font-weight:bold;
+
+}
+
+.objmiddle{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+
+	width:50%;
+	height:50%;
+}
+
+.securepass{
+	font-size:2.2vh;
+	font-weight:bold;
+
+
+	color:yellow;
+
+	margin-left:20%;
+}
+.basictext{
+	font-size:80%;
+	width:100%;
+	height:100%;
+
+}
+.basictext:active{
+	color:yellow;
+}
+
+#activatebtn{
+	margin-top:50%;
+}
+
+.blackbg{
+	position:absolute;
+	margin:auto;
+	left:0;
+	right:0;
+	bottom:0;
+	left:0;
+
+	width:100%;
+	height:100%;
+
+	background-color:black;
+
+	opacity:0.8;
+
+	z-index:99;
+
+	visibility:hidden;
+}
+.errorbox{
+	position:absolute;
+	margin:auto;
+	left:0;
+	right:0;
+	bottom:0;
+	left:0;
+
+	background-color:white;
+
+	border-radius:10%;
+
+	width:70%;
+	height:50%;
+
+	margin-top:20%;
+	margin-bottom:50%;
+	z-index:100;
+
+	/*display:block;*/
+	visibility:hidden; /* special */
+}
+
+.okbtn{
+	background-color:orange;
+	width:50%;
+	/*height:20%;*/
+}
+.okbtn:active{
+	background-color:darkgray;
+}
+.errormsg{
+	color:black;
+	text-align:center;
+	/*border:1px solid black;*/
+
+	margin-top:20%;
+	margin-bottom:20%;
+
+	width:100%;
+	height:100%;
+}
+.containerbasic{
+	overflow:auto;
+	margin-top:1%;
+	width:100%;
+	height:70%;
+	left:0;
+	right:0;
+}
+.titlesign{
+	color:tomato;
+	font-size:4vh;
+	font-weight:bold;
+	margin-top:15%;
+	margin-bottom:15%;
+}
+
+.loadgif{
+	position:absolute;
+	left:0;
+	right: 0;
+	bottom:0;
+	top:0;
+	margin:auto;
+
+	margin-top:50%;
+
+	width:50%;
+	height:25%;
+
+	z-index:100;
+
+	visibility:visible;
+}
+.activatebox{
+	position:absolute;
+	margin:auto;
+	left:0;
+	bottom:0;
+	right:0;
+	top:0;
+
+	width:90%;
+	height:70%;
+
+	margin-top:10%;
+
+	border-radius:10%;
+
+	background-color:white;
+	z-index:98;
+
+	visibility:hidden;
+}
+.exitbtn{
+	margin-left:85%;
+	position:absolute;
+	margin-top:3%;
+
+	border:2px solid tomato;
+	border-radius:50px;
+
+	width:10%;
+
+	font-size:3vh;
+	font-weight:bold;
+	color:tomato;
+}
+.exitbtn:active{
+	border:2px solid darkgray;
+	color:darkgray;
+}
+.activatecontainer{
+	width:90%;
+	overflow:auto;
+	/*border:1px solid black;*/
+	margin-top:15%;
+	margin-left:5%;
+	margin-right: 5%;
+}
+.activatetext{
+	margin-top:1%;
+	text-align:center;
+	color:black;
+}
+.activatetitle{
+	color:black;
+}
+.activateemail{
+	margin:none;
+	width:60% !important;
+	border:1px solid black !important;
+}
+.activatenowbtn{
+	/*position:absolute;*/
+	background-color:mediumseagreen;
+	margin:0% !important;
+	/*height:10% !important;*/
+}
+.activatenowbtn:active{
+	margin:0% !important;
+	background-color:darkgray;
+}

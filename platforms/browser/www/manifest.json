@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "HARP Hotel Finder (Beta)",
+  "short_name": "HARP Hotel Finder (Beta)",
+  "version": "io.cordova.harpbeta",
+  "description": "An app that locates hotels for you.",
+  "author": "HARP Team",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "mainmenu.html"
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densityDpi=device-dpi">
+
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+
+        <script id="cordovaJS" type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/mainmenu.js"></script>
+        <!-- SCRIPTS TO LOAD -->
+
+        <!--  -->
+        <title>HARP Beta</title>
+    </head>
+    <body>
+
+        <!-- LOADING SYMBOL -->
+        <!-- <img id="loadgif" class="loadgif" src="css\img\load.gif"> -->
+        <!--  -->
+
+        <div class="MainBackground">
+            <!-- BLACK BG -->
+            <div id="blackbg" class="blackbg"></div>
+            <!--  -->
+
+            
+
+            <span class="maintitle">HARP</span>
+
+            <div class="midContainer">
+                
+                <!-- <center> -->
+                    <button class="btnBig" onclick="msgboxState('OPENAR')">A.R. MODE</button><br>
+                    <button class="btnBig" onclick="msgboxState('OPENDF')">STANDARD MODE</button>
+                    <button class="btnBig" onclick="msgboxState('OPENOF')">OFFLINE MODE</button>
+                    <br><br>
+                    <button class="btnBig btnSupport" onclick="msgboxState('OPENSETTINGS');">SETTINGS</button>
+                    <!-- <button class="btnBig btnSupport">HELP</button> -->
+                <!-- </center> -->
+            </div>
+
+            <!-- AR Warning Message  -->
+            <div id="ARWarningCont" class="MessageBoxCont">
+                <div id="ARwarningContent" class="MessageBoxContent">
+                    <div class="MessageBoxTitle">WARNING</div>
+                    <div class="MessageBoxMsg">
+                        This mode uses or requires: <br>
+
+                        <ul>
+                            <li>GPS</li>
+                            <li>Fast internet connection</li>
+                            <li>Device's compass sensor</li>
+                            <li>Camera</li>
+                        </ul>
+
+                        This mode will use more of your device's battery and uses heavy performance
+
+
+                    </div>
+                </div>
+                <div id="ARwarningOK" class="MessageBoxBtn OK">
+                    <div class="MessageBoxBtnMsg" onclick="navigateTo('ARMODE');">OK</div>
+                </div>
+                <div id="ARwarningCancel" class="MessageBoxBtn Cancel" onclick="msgboxState('CLOSEAR')">
+                    <div class="MessageBoxBtnMsg">CANCEL</div>
+                </div>
+            </div>
+            <!-- ////////////////////////////////////////////// -->
+
+            <!-- DEFAULT Warning Message  -->
+            <div id="DFWarningCont" class="MessageBoxCont">
+                <div id="DFwarningContent" class="MessageBoxContent">
+                    <div class="MessageBoxTitle">WARNING</div>
+                    <div class="MessageBoxMsg">
+                        This mode uses or requires: <br>
+
+                        <ul>
+                            <li>GPS</li>
+                            <li>Fast internet connection</li>
+                            <li>Device's compass sensor</li>
+                        </ul>
+
+                        This mode will use more of your device's battery and uses heavy performance
+
+
+                    </div>
+                </div>
+                <div id="DFwarningOK" class="MessageBoxBtn OK">
+                    <div class="MessageBoxBtnMsg" onclick="navigateTo('NORMALMODE');">OK</div>
+                </div>
+                <div id="DFwarningCancel" class="MessageBoxBtn Cancel" onclick="msgboxState('CLOSEDF')">
+                    <div class="MessageBoxBtnMsg">CANCEL</div>
+                </div>
+            </div>
+            <!-- ////////////////////////////////////////////// -->
+
+            <!-- OFFLINE MODE Warning Message -->
+
+            <div id="OFWarningCont" class="MessageBoxCont">
+                <div id="OFwarningContent" class="MessageBoxContent">
+                    <div class="MessageBoxTitle">WARNING</div>
+                    <div class="MessageBoxMsg">
+                        This mode uses or requires: <br>
+
+                        <ul>
+                            <li>GPS</li>
+                            <li>Device's compass sensor</li>
+                        </ul>
+
+                        This mode doesn't require internet connection and uses
+                        little-to-moderate performance
+
+
+                    </div>
+                </div>
+                <div id="OFwarningOK" class="MessageBoxBtn OK">
+                    <div class="MessageBoxBtnMsg" onclick="navigateTo('OFFLINEMODE');">OK</div>
+                </div>
+                <div id="OFwarningCancel" class="MessageBoxBtn Cancel" onclick="msgboxState('CLOSEOF')">
+                    <div class="MessageBoxBtnMsg">CANCEL</div>
+                </div>
+            </div>
+
+            <!-- ////////////////////////////////////////////// -->
+            <!-- SETTINGS -->
+            <div id="SettingsContainer" class="basicFormContent">
+                <div class="formTitleContainer">
+                    <div class="formTitleContent">SETTINGS</div>
+
+                    <div class="exitbtnContainer" onclick="msgboxState('EXITSETTINGS');">
+                        <div class="exitbtnContent">X</div>
+                    </div>
+                </div>
+                <div class="formSlideContainer">
+                    <div class="formSlideContent">
+                        <!--  -->
+                        <div class="formSlideTitle">GENERAL</div>
+
+                        <div class="formSlideOptContainer">
+                            <div class="formSlideOptTitle">Distance Unit</div>
+                            <div id="setting_unitConversion" onclick="setSettings('setting_unitConversion');" class="formSlideOptBtn Multiple"></div>
+                        </div>
+                        <div class="formSlideOptContainer">
+                            <div class="formSlideOptTitle">Search Radius</div>
+                            <div id="setting_searchRadius" onclick="setSettings('setting_searchRadius');" class="formSlideOptBtn Multiple"></div>
+                        </div>
+                        
+                        <div class="formSlideOptContainer">
+                            <div class="formSlideOptTitle">Hotel Rating Display</div>
+                            <div id="setting_switchRating" onclick="setSettings('setting_switchRating');" class="formSlideOptBtn Multiple"></div>
+                        </div>
+                        
+                        <!--  -->
+
+                        <br>
+
+                        <!--  -->
+                        <div class="formSlideTitle">GPS</div>
+
+                        <div class="formSlideOptContainer">
+                            <div class="formSlideOptTitle">High Accuracy</div>
+                            <div id="setting_gpsOptHighAccuracy" onclick="setSettings('setting_gpsOptHighAccuracy');" class="formSlideOptBtn Boolean"></div>
+                        </div>
+                        <!--  -->
+
+                        <br>
+
+                        <div class="formSlideTitle">AR & MAPS</div>
+
+                        <div class="formSlideOptContainer">
+                            <div class="formSlideOptTitle">Nerd Stats</div>
+                            <div id="setting_nerdStats" onclick="setSettings('setting_nerdStats');" class="formSlideOptBtn Boolean"></div>
+                        </div>
+                        
+                        <div class="formSlideOptContainer">
+                            <div class="formSlideOptTitle">Fixed Distance</div>
+                            <div id="setting_fixedDistance" onclick="setSettings('setting_fixedDistance');" class="formSlideOptBtn Boolean"></div>
+                        </div>
+
+                        <div class="formSlideOptContainer">
+                            <div class="formSlideOptTitle">Travel Mode</div>
+                            <div id="setting_travelmode" onclick="setSettings('setting_travelmode');" class="formSlideOptBtn Multiple"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+
+        
+
+
+    </body>
+</html>

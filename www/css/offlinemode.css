@@ -1,0 +1,1376 @@
+@font-face {
+    font-family:"Century Gothic";
+    src: url("font/GOTHIC.TTF") format('truetype');
+}
+
+
+html, body{
+	background-color:slateblue;
+	font-family:Century Gothic;
+	color:white;
+
+    /*height:1920px;*/
+    /*width:1080px;*/
+
+	/*-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;*/
+    user-select: none;
+
+    /*position:fixed;*/
+
+    margin:0;
+
+    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+ul{
+    text-align:left;
+}
+.Important{
+    z-index:99;
+}
+.Hidden{
+    visibility: hidden;
+}
+.SettingsIcon{
+    position:absolute;
+    margin:auto;
+
+    right:2.0vh;
+    top:0;
+    bottom:0;
+
+    width:6.5vh;
+
+    filter: invert(1);
+    opacity: 0.5;
+
+}
+.MainBackground{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    width:100%;
+    height:100%;
+
+    background-color:slateblue;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.loadgif{
+    position:absolute;
+    left:0;
+    right: 0;
+    bottom:0;
+    top:0;
+    margin:auto;
+
+    margin-top:50%;
+
+    width:50%;
+    height:25%;
+
+    z-index:99;
+
+    /*visibility:visible;*/
+    /*visibility:hidden;*/
+}
+.loadTitle{
+    position:absolute;
+    margin:auto;
+
+    /*top:0;*/
+    left:0;
+    right:0;
+    bottom:0;
+
+    width:100%;
+    height:40%;
+
+    color:white;
+    text-align:center;
+}
+.basicForm{
+    position:absolute;
+
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    width:100%;
+    height:100%;
+}
+.basicForm.purple{
+    background-color:slateblue;
+}
+.basicForm.white{
+    background-color:white;
+}
+
+
+
+.blackbg{
+    position:absolute;
+    margin:auto;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+
+    width:100%;
+    height:100%;
+
+    background-color:black;
+
+
+    opacity:0.8;
+
+    /*z-index:90;*/
+
+    visibility:hidden;
+}
+
+.basicMsgBoxContainer{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    width:80%;
+    height:50%;
+
+    border-radius:5vh;
+
+    background-color:white;
+
+    /*z-index:99;*/
+}
+
+.basicMsgBoxTitle{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+
+    width:100%;
+    height:10%;
+
+    border-top-left-radius:5vh;
+    border-top-right-radius:5vh;
+
+
+}
+.basicMsgBoxTitle.error{
+    background-color:red;
+}
+.basicMsgBoxTitle.warning{
+    background-color:orange;
+}
+
+.basicMsgBoxTitleContent{
+
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    bottom:0;
+
+    width:100%;
+    height:50%;
+
+    font-size:2.5vh;
+
+    font-weight:bold;
+    color:white;
+    text-align:center;
+}
+
+.basicMsgBoxBtn{
+    position:absolute;
+    margin:auto;
+
+    bottom:0;
+
+    height:20%;
+    width:50%;
+
+}
+.basicMsgBoxBtn:active{
+    background-color:darkgray !important;
+}
+.basicMsgBoxBtn.Left{
+    left:0;
+
+    background-color:mediumseagreen;
+
+    border-bottom-left-radius:5vh;
+
+}
+.basicMsgBoxBtn.Right{
+    right:0;
+
+    background-color:tomato;
+
+    border-bottom-right-radius:5vh;
+
+}
+.basicMsgBoxBtnContent{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    bottom:0;
+
+    width:100%;
+    height:50%;
+
+    color:white;
+
+    font-weight:bold;
+    
+    text-align:center;
+
+    font-size:3.5vh;
+}
+.basicMsgBoxMsgContainer{
+    position:absolute;
+    margin:auto;
+
+    top:15%;
+    left:0;
+    right:0;
+
+    width:100%;
+    height:60%;
+
+    /*border:1px solid black;*/
+}
+.basicMsgBoxMsgContainerContent{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    width:100%;
+    height:50%;
+
+    font-size:2.5vh;
+    
+    color:black;
+
+    text-align:center;
+}
+.FormStatusContainer{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+
+    width:100%;
+    height:6%;
+
+    /*border:1px solid black;*/
+}
+.StatusIconContainer{
+
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    bottom:0;
+
+    height:100%;
+    width:100%;
+
+    /*border:1px solid black;*/
+
+    background-color:tomato;
+
+}
+.StatusIconContainer.Left{
+    left:0;
+}
+
+.StatusIconContainer.Right{
+    right:0;
+}
+.StatusIconImg{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+
+    height:100%;
+
+    width:10%;
+
+    /*border:1px solid black;*/
+}
+.StatusIconImg.Invert{
+  filter: invert(1);
+}
+
+/* COMPASS */
+
+.CompassContainer{
+    position:absolute;
+    margin:auto;
+
+    bottom:0;
+    left:0;
+    right:0;
+
+    width:100%;
+
+    height:10%;
+
+    background-color:darkslateblue;
+
+}
+.CompassCircleContainer{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    margin-top:40%;
+
+    width:100%;
+    height:50%;
+
+    /*border:1px solid black;*/
+}
+.CompassCircle{
+    position:absolute;
+    margin:auto;
+
+    bottom:0;
+    left:0;
+    right:0;
+
+    height:0;
+    width:50%;
+
+    padding-bottom:50%;
+
+    border-radius:50%;
+
+    background-color:white !important;
+
+    border:0.5vh solid darkslateblue;
+    transform: scale(1.3);
+}
+.CompassArrow{
+    position:absolute;
+    margin:auto;
+
+
+    left:0;
+    right:0;
+    bottom:0;
+
+    width:100%;
+
+    font-size:4.5vh;
+    font-weight:bold;
+
+    text-align:center;
+    color:black;
+}
+.CircleSymbols{
+    position:absolute;
+    margin:auto;
+
+    text-align:center;
+
+    font-size:8vw;
+    font-weight:bold;
+
+    /*border:1px solid black;*/
+    color:black;
+}
+.CircleSymbols.North{
+    top:0;
+    left:0;
+    right:0;
+}
+.CircleSymbols.West{
+    height:10%;
+    top:0;
+    bottom:0;
+    left:0;
+    transform: rotate(-90deg);
+}
+.CircleSymbols.East{
+    height:10%;
+    top:0;
+    bottom:0;
+    right:0;
+    transform: rotate(90deg);
+}
+.CircleSymbols.South{
+    bottom:0;
+    left:0;
+    right:0;
+    transform: rotate(180deg);
+}
+.CircleSymbols.SouthEast{
+    font-weight:normal;
+    font-size:5vw;
+    bottom:15%;
+    right:15%;
+    transform: rotate(135deg);
+}
+.CircleSymbols.SouthWest{
+    font-weight:normal;
+    font-size:5vw;
+    bottom:15%;
+    left:15%;
+    transform: rotate(225deg);
+}
+.CircleSymbols.NorthEast{
+    font-weight:normal;
+    font-size:5vw;
+    top:15%;
+    right:15%;
+    transform: rotate(45deg);
+}
+.CircleSymbols.NorthWest{
+    font-weight:normal;
+    font-size:5vw;
+    top:15%;
+    left:15%;
+    transform: rotate(-45deg);
+}
+.CompassHeading{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    bottom:0;
+    left:0;
+
+    width:100%;
+    height:50%;
+
+    margin-left:2%;
+
+    font-size:4vh;
+
+    color:orange;
+
+    text-align:left;
+}
+
+/*////////*/
+/* MAIN CONTENT */
+
+.MainContent{
+    position:absolute;
+    margin:auto;
+
+    top:15vh;
+    left:0;
+    right:0;
+    /*bottom:0;*/
+
+    height:74vh;
+
+    width:100%;
+
+    border-top:0.3em solid darkslateblue;
+
+
+
+    background-color:gray;
+}
+
+.GoogleMaps{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    width:100%;
+    height:100%;
+
+    color:black;
+
+    text-align:center;
+
+    background-color:lightgray;
+}
+.SearchContent{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    width:100%;
+    height:100%;
+
+    color:black;
+
+    text-align:center;
+
+    background-color:#8080E6;
+
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+.RealtimeContent{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    width:100%;
+    height:100%;
+
+    color:black;
+
+    text-align:center;
+
+    background-color:#8080E6;
+
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+/*//////////*/
+
+
+
+/* SWITCH CONTENT */
+.SwitchContainer{
+    position:absolute;
+    margin:auto;
+
+    top:7vh;
+    left:0;
+    right:0;
+
+    height:5%;
+    width:95%;
+
+    border-radius:5vh;
+    background-color:gainsboro;
+
+    border:0.2em solid darkslateblue;
+}
+.SwitchBtnContent{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+
+    width:100%;
+    height:50%;
+
+    text-align:center;
+
+    font-weight:bold;
+
+    color:darkslateblue;
+}
+.SwitchBtn{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    bottom:0;
+
+    height:100%;
+
+    width: calc(100% / 2);
+
+    /*background-color:gray;*/
+}
+.SwitchBtn.Left{
+    left:0;
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    border-right:0.1em solid slateblue;
+    /*background-color:lightgreen;*/
+
+}
+.SwitchBtn.Middle{
+    left:0;
+    right:0;
+    border-left:0.1em solid slateblue;
+    border-right:0.1em solid slateblue;
+
+}
+.SwitchBtn.Right{
+    right:0;
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+    border-left:0.1em solid slateblue;
+
+
+}
+/*///////////////*/
+
+/* /// SETTINGS ///  */
+
+.SettingsHeader{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+
+    width:100%;
+    height:7.5vh;
+
+    /*border:1px solid black;*/
+
+    color:black;
+
+    text-align:center;
+
+}
+.SettingsHeaderText{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+
+    height:50%;
+    width:100%;
+
+    color:black;
+
+    font-size:3.5vh;
+
+    font-weight: bold;
+
+    text-align:center;
+}
+
+.SettingsMainContent{
+
+    position:absolute;
+    margin:auto;
+
+    left:0;
+    right:0;
+    bottom:1.5vh;
+
+    width:100%;
+    height:90vh;
+
+
+    /*border:1px solid black;*/
+
+    overflow-y:auto !important;
+    overflow-x:hidden !important;
+}
+.SettingsSection{
+
+    background-color:slateblue;
+
+    height:3.5vh;
+    width:100%;
+
+    text-align:center;
+
+    font-weight:bold;
+
+    color:white;
+
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.SettingsOptContainer{
+    position:relative;
+
+    /*border:1px solid green;*/
+
+    margin-top:5%;
+    margin-bottom:5%;
+
+    height:3.5vh;
+    width:100%;
+}
+
+.SettingsOptTitle{
+    position:absolute;
+    margin:auto;
+
+    left:1.5vh;
+    top:0;
+    bottom:0;
+
+    font-weight:bold;
+
+    font-size:2.4vh;
+
+    height:50%;
+
+    /*border:1px solid black;*/
+
+    color:black;
+}
+.SettingsOptBtn{
+    position:absolute;
+    margin:auto;
+
+    right:1.5vh;
+    top:0;
+    bottom:0;
+
+    font-weight:bold;
+
+    text-align:center;
+
+    height:100%;
+    width:40%;
+
+    /*border:1px solid black;*/
+
+    border-radius:5vh;
+
+    color:white;
+
+    background-color:orange;
+}
+.SettingsOptBtn:active{
+    background-color:darkgray !important;
+}
+.SettingsOptBtnText{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+
+    width:100%;
+    height:3vh;
+
+    font-size:2.5vh;
+
+
+    text-align:center;
+    color:white;
+}
+
+/*//////////////////*/
+
+.exitbtnContainer{
+    position:absolute;
+    margin:auto;
+
+    top:10%;
+    right:2%;
+
+    width:20%;
+    height:50%;
+
+    border-radius:2vh;
+
+    background-color:tomato;
+}
+.exitbtnContent{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+
+    width:100%;
+    height:50%;
+
+    font-weight:bold;
+
+    font-size:2vh;
+
+    text-align:center;
+
+    color:white;
+}
+.exitbtnContainer:active{
+    background-color:darkgray !important;
+}
+
+/* REALTIME CONTENT */
+
+.RTHotelContainer{
+    position:relative;
+    margin:auto;
+
+    left:0;
+    right:0;
+
+    height:10vh;
+    width:95%;
+
+    margin-top:2%;
+    margin-bottom:2%;
+
+    border-radius:2vh;
+
+    background-color:white;
+}
+.RTHotelTitle{
+    position:absolute;
+    margin:auto;
+
+    top:1vh;
+    left:1vh;
+
+    height:3.5vh;
+    width:80%;
+
+    /*border:1px solid black;*/
+
+}
+.RTHotelTitleText{
+    font-weight:bold;
+    text-align:left;
+    font-size:5vw;
+    color:black;
+}
+.RTHotelDistance{
+    position:absolute;
+    margin:auto;
+
+    font-weight:bold;
+
+    color:darkorange;
+
+    font-size:2.8vh;
+    bottom:0.5vh;
+    left:1vh;
+
+    /*border:1px solid black;*/
+}
+.RTRating{
+    position:absolute;
+    margin:auto;
+
+    right:1vh;
+    top:0;
+    bottom:0;
+
+    width:10vh;
+
+    /*border:1px solid black;*/
+
+}
+.RTRatingText{
+    position:absolute;
+    margin:auto;
+
+    top:2vh;
+    right:0;
+
+    text-align:right;
+
+    font-weight: bold;
+
+    font-size:4.5vh;
+
+    color:mediumseagreen;
+}
+.RTHotelCompass{
+    margin-left:2vh;
+    color:darkslateblue;
+}
+
+
+
+/* //////////////// */
+/* HOTEL CONTENT */
+
+.HotelHeader{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    left:0;
+    right:0;
+
+    width:100%;
+    height:7.5vh;
+
+    /*border:1px solid black;*/
+
+    color:black;
+
+    text-align:center;
+
+    background-color:slateblue;
+}
+
+.HotelContentContainer{
+    position:absolute;
+    margin:auto;
+
+    bottom:0;
+    left:0;
+    right:0;
+
+    height:92vh;
+    width:100%;
+
+    /*border:1px solid red;*/
+
+    overflow-x:hidden !important;
+    overflow-y:auto !important;
+}
+
+.HCHotelTitle{
+
+
+    position:relative;
+    margin:auto;
+
+
+    width:100%;
+
+    word-wrap:normal;
+
+    font-size:5vh;
+
+    text-align:center;
+
+    font-weight: bold;
+
+    color:black;
+
+    /*border:1px solid black;*/
+}
+.HCDCContainer{
+    position:relative;
+    margin:auto;
+
+    margin-top:2vh;
+    margin-bottom:2vh;
+
+    height:8vh;
+    width:100%;
+
+    /*border:1px solid black;*/
+}
+.HCDC{
+    position:absolute;
+    margin:auto;
+
+    top:2vh;
+    bottom:0;
+
+    font-weight:bold;
+
+    font-size:3vh;
+}
+.HCDC.Compass{
+    right:2vh;
+    text-align:right;
+
+    color:slateblue;
+}
+.HCDC.Distance{
+    left:2vh;
+    text-align:left;
+    color:darkorange;
+}
+
+.HCRatingCircle{
+    position:relative;
+    margin:auto;
+
+    left:0;
+    right:0;
+
+    width:100%;
+
+    /*border:1px solid black;*/
+}
+.HCTrackBtnContainer{
+    position:relative;
+    margin:auto;
+
+    top:3vh;
+    left:0;
+    right:0;
+
+    height:7vh;
+    width:40vw;
+
+    border-radius:5vh;
+    /*border:1px solid black;*/
+
+    background-color:mediumseagreen;
+}
+.HCTrackBtnContainer:active{
+
+    background-color:darkgray !important;
+}
+.HCTrackBtnText{
+    position:absolute;
+    margin:auto;
+
+    top:1.5vh;
+    left:0;
+    right:0;
+
+    width:100%;
+
+    font-size:3.5vh;
+
+    font-weight: bold;
+
+    /*border:1px solid black;*/
+
+    text-align:center;
+
+    color:white;
+}
+.HCLinksContainer{
+    position:relative;
+    margin:auto;
+
+    margin-top:8vh;
+
+    height:3.5vh;
+
+    width:100%;
+
+    /*border:1px solid black;*/
+}
+.HCLinks{
+    position:absolute;
+    margin:auto;
+
+    top:0;
+    bottom:0;
+
+    height:100%;
+
+    color:slateblue;
+
+    font-size:2.5vh;
+    font-weight: bold;
+
+    text-decoration: none;
+
+    /*border:1px solid black;*/
+}
+.HCLinks:active{
+    color:darkgray;
+}
+
+.HCLinks.Website{
+    left:1vh;
+    text-align:left;
+
+}
+.HCLinks.Google{
+    right:1vh;
+    text-align:right;
+}
+.HCAddress{
+    position:relative;
+    margin:auto;
+
+    margin-top:5vh;
+
+    font-size:2.5vh;
+
+    word-wrap:normal;
+
+    text-align:center;
+
+    color:black;
+
+    font-weight: bold;
+
+    width:100%;
+
+    /*border:1px solid black;*/
+}
+.HCPhoneNumber{
+    position: relative;
+    margin:auto;
+
+    margin-top:4vh;
+
+    left:0;
+    right:0;
+
+
+    height:4.5vh;
+    width:100%;
+    /*border:1px solid green;*/
+
+    color:black;
+}
+.HCPhoneNumberText{
+    font-weight: bold;
+    color:darkslateblue;
+}
+.HCPeople{
+    position: relative;
+    margin:auto;
+
+    margin-top:5vh;
+    margin-bottom:3vh;
+
+
+    text-align: center;
+
+    color:black;
+
+    width:100%;
+}
+
+.HCReviewsHeader{
+    position:relative;
+    margin:auto;
+
+
+    margin-top:5vh;
+    margin-bottom:5vh;
+
+    font-weight: bold;
+
+    width:100%;
+
+    text-align:center;
+
+    color:white;
+    background-color:darkslateblue;
+}
+.HCReviewContainer{
+    position: relative;
+    margin:auto;
+
+
+    margin-top:5vh;
+    margin-bottom:5vh;
+
+
+    width:100%;
+
+    /*border:1px solid brown;*/
+}
+.HCComment{
+    position:relative;
+    margin:auto;
+
+    word-wrap: normal;
+
+    text-align:center;
+
+    font-style:italic;
+
+    width:100%;
+
+    color:black;
+}
+.HCComment::before{
+    content: '\201C';
+}
+.HCComment::after{
+    content: '\201D';
+}
+.HCReviewName{
+    position:relative;
+    margin:auto;
+
+    margin-top:1vh;
+
+    width:100%;
+    text-align:center;
+    color:darkslateblue;
+}
+.HCReviewName::before{
+    content: '- ';
+}
+.HCReviewDate{
+    position:relative;
+    margin:auto;
+
+    text-align: center;
+    width:100%;
+
+    font-style:italic;
+
+    color:darkgray;
+}
+.HCReviewRating{
+    position:relative;
+    margin:auto;
+
+    text-align:center;
+
+    color:black;
+
+    font-weight:bold;
+    width:100%;
+}
+.noreviews{
+
+    margin-top:1vh;
+    margin-bottom:5vh;
+
+    text-align: center;
+
+    color:black;
+
+    width:100%;
+}
+/*//////////////*/
+
+/* SEARCH BOX */
+.SCHeader{
+    position: relative;
+    margin:auto;
+
+    margin-top:1vh;
+
+    color:darkslateblue;
+
+    font-weight:bold;
+
+    text-align:center;
+
+    width:100%;
+}
+.SCContainer{
+    position:relative;
+    margin:auto;
+
+    margin-top:2vh;
+
+    height:5vh;
+
+    width:100%;
+
+    /*border:1px solid brown;*/
+}
+.SCInput{
+    position:absolute;
+    margin:auto;
+
+    left:1vh;
+
+
+    height:90%;
+
+    background-color:white;
+
+    outline:none;
+
+    border-radius:2vh;
+
+    border:none;
+
+    
+    user-select:all !important;
+
+    width:60%;
+}
+.SCBtn{
+    position:absolute;
+    margin:auto;
+
+    right:1vh;
+
+    height:100%;
+
+    border-radius:2vh;
+
+    color:white;
+
+    background-color:orange;
+
+    width:15vh;
+
+    outline:0;
+
+    border:none;
+
+}
+.SCBtn:active{
+    background-color:darkgray !important;
+}
+.SCBtnText{
+    position:absolute;
+    margin:auto;
+
+    top:1vh;
+    left:0;
+    right:0;
+
+    /*font-size:2vh;*/
+
+    width:100%;
+
+    font-weight: bold;
+
+    color:white;
+}
+.SCResultsArea{
+    position:relative;
+    margin:auto;
+
+
+    margin-top:2vh;
+
+    width:100%;
+
+
+    /*border:1px solid red;*/
+}
+
+/*////////////*/

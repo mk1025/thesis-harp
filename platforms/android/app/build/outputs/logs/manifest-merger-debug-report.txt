@@ -1,0 +1,435 @@
+-- Merging decision tree log ---
+provider#de.appplant.cordova.plugin.notification.util.AssetProvider
+INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:12:9-14:20
+	android:grantUriPermissions
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:12:92-126
+	android:authorities
+		INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:12:19-66
+	android:exported
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:12:67-91
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:12:127-200
+meta-data#com.google.android.geo.API_KEY
+INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:24:9-115
+	android:value
+		INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:24:66-112
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:24:20-65
+manifest
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:2:1-52:12
+MERGED from [:tbxml-android:] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\99243feaa3404691a2a3f934c438b9fd\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\3dbb2f491f967666fe7d6ea37ce554f9\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\e44edc2598ea059d22469dcf09cefa86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\8e4216bcc87916914576cb664614ca05\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\e5a50b972629fcff1ca9afc226f04407\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\717b01257e63b82535d5065de4170208\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\f12f0bb434b3e8a127f373d4a0689a43\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-basement-17.0.0.aar\668a4a80853141f4872ff9b8d03f7d59\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\7a8827cab11ca6315241c9e65e09a116\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\74c31568e8553efbdae9c84034ae72d8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\93089527dcd11abbdc1ba70eaec8234f\AndroidManifest.xml:17:1-22:12
+MERGED from [:CordovaLib] C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:1-27:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\121aeeaa1d5fe6045da069c35d9b561b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\621cc241c3adff7b6eb399a86df0d705\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\12925966eafc7d9cb2937da690617f76\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\316ce9cbe28b8ba786f5c780db8c506d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\3d7bb4ba0b0b0c8921ce8a85878bea76\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\6481f7c7e1453b346206c4203b3b955e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\e67f9b79392b5d503480b8d603c94b75\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\c17311918e60937c448668e9909ab8ab\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2a330b726f4887f4762736e9e48f5295\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\f59abb9970d412e1296341dc57b5ce21\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\5e7b774bf300663f6ca8fd950afea086\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\86d4723b8ae31b8098892f694aa95bba\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\80b3ee3d20a7ac19bedf2f2df0f9b07b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\75508a9a38fa1d7eeb580a9dbe31ddf9\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\c2d1cea9dcbf0761b236b340c0a42e0d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\b0484bbb024cd1e251a5e208c8412d22\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\dfa81b7539542aafff65e464b8dbb933\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\4e15c005e791d68890b77b0adf11a112\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\ec6d2b97ead026f94e5f0800802a0a22\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\fde433967bff261baf5e2acc8a1bbb9e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\b2ecfca523b4d3b6f80309228180a73f\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:102-131
+		INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
+		INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:132-190
+	android:versionCode
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
+		INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+application
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:4:5-27:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\3dbb2f491f967666fe7d6ea37ce554f9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\3dbb2f491f967666fe7d6ea37ce554f9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\8e4216bcc87916914576cb664614ca05\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\8e4216bcc87916914576cb664614ca05\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\e5a50b972629fcff1ca9afc226f04407\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\e5a50b972629fcff1ca9afc226f04407\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\717b01257e63b82535d5065de4170208\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\717b01257e63b82535d5065de4170208\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\f12f0bb434b3e8a127f373d4a0689a43\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\f12f0bb434b3e8a127f373d4a0689a43\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-basement-17.0.0.aar\668a4a80853141f4872ff9b8d03f7d59\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-basement-17.0.0.aar\668a4a80853141f4872ff9b8d03f7d59\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\f59abb9970d412e1296341dc57b5ce21\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\f59abb9970d412e1296341dc57b5ce21\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\75508a9a38fa1d7eeb580a9dbe31ddf9\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\75508a9a38fa1d7eeb580a9dbe31ddf9\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\f59abb9970d412e1296341dc57b5ce21\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:4:114-140
+	android:label
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:4:81-113
+	android:hardwareAccelerated
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:4:18-52
+	android:icon
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:4:53-80
+activity#io.cordova.harpbeta.MainActivity
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:5:9-10:20
+	android:screenOrientation
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:5:194-230
+	android:label
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:5:97-134
+	android:launchMode
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:5:135-165
+	android:windowSoftInputMode
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:5:294-336
+	android:configChanges
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:5:19-96
+	android:theme
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:5:231-293
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:5:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:6:13-9:29
+	android:label
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:6:28-65
+action#android.intent.action.MAIN
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:7:17-69
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:7:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:8:17-77
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:8:27-74
+activity#com.virtuoworks.cordova.plugin.canvascamera.CanvasCamera
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:11:9-180
+	android:label
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:11:19-51
+	android:theme
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:11:124-177
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:11:52-123
+receiver#de.appplant.cordova.plugin.localnotification.TriggerReceiver
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:15:9-122
+	android:exported
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:15:19-43
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:15:44-119
+receiver#de.appplant.cordova.plugin.localnotification.ClearReceiver
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:16:9-120
+	android:exported
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:16:19-43
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:16:44-117
+activity#de.appplant.cordova.plugin.localnotification.ClickReceiver
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:17:9-205
+	android:launchMode
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:17:44-79
+	android:exported
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:17:19-43
+	android:theme
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:17:154-202
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:17:80-153
+receiver#de.appplant.cordova.plugin.localnotification.RestoreReceiver
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:18:9-23:20
+	android:exported
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:18:50-74
+	android:directBootAware
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:18:19-49
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:18:75-150
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:19:13-22:29
+action#android.intent.action.LOCKED_BOOT_COMPLETED
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:20:17-86
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:20:25-83
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:21:17-79
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:21:25-76
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:25:9-122
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-basement-17.0.0.aar\668a4a80853141f4872ff9b8d03f7d59\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-basement-17.0.0.aar\668a4a80853141f4872ff9b8d03f7d59\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:25:66-119
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:25:20-65
+uses-library#org.apache.http.legacy
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:26:9-88
+	android:required
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:26:61-85
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:26:23-60
+uses-sdk
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:28:5-74
+INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:28:5-74
+MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:7:5-9:41
+MERGED from [:tbxml-android:] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\99243feaa3404691a2a3f934c438b9fd\AndroidManifest.xml:7:5-9:41
+MERGED from [:tbxml-android:] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\99243feaa3404691a2a3f934c438b9fd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\3dbb2f491f967666fe7d6ea37ce554f9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\3dbb2f491f967666fe7d6ea37ce554f9\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\e44edc2598ea059d22469dcf09cefa86\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\e44edc2598ea059d22469dcf09cefa86\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\8e4216bcc87916914576cb664614ca05\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\8e4216bcc87916914576cb664614ca05\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\e5a50b972629fcff1ca9afc226f04407\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\e5a50b972629fcff1ca9afc226f04407\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\717b01257e63b82535d5065de4170208\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\717b01257e63b82535d5065de4170208\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\f12f0bb434b3e8a127f373d4a0689a43\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\f12f0bb434b3e8a127f373d4a0689a43\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-basement-17.0.0.aar\668a4a80853141f4872ff9b8d03f7d59\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-basement-17.0.0.aar\668a4a80853141f4872ff9b8d03f7d59\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\7a8827cab11ca6315241c9e65e09a116\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\7a8827cab11ca6315241c9e65e09a116\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\74c31568e8553efbdae9c84034ae72d8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\74c31568e8553efbdae9c84034ae72d8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\93089527dcd11abbdc1ba70eaec8234f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\93089527dcd11abbdc1ba70eaec8234f\AndroidManifest.xml:20:5-44
+MERGED from [:CordovaLib] C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\CordovaLib\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\121aeeaa1d5fe6045da069c35d9b561b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\121aeeaa1d5fe6045da069c35d9b561b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\621cc241c3adff7b6eb399a86df0d705\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\621cc241c3adff7b6eb399a86df0d705\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\12925966eafc7d9cb2937da690617f76\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\12925966eafc7d9cb2937da690617f76\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\316ce9cbe28b8ba786f5c780db8c506d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\316ce9cbe28b8ba786f5c780db8c506d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\3d7bb4ba0b0b0c8921ce8a85878bea76\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\3d7bb4ba0b0b0c8921ce8a85878bea76\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\6481f7c7e1453b346206c4203b3b955e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\6481f7c7e1453b346206c4203b3b955e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\e67f9b79392b5d503480b8d603c94b75\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\e67f9b79392b5d503480b8d603c94b75\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\c17311918e60937c448668e9909ab8ab\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\c17311918e60937c448668e9909ab8ab\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2a330b726f4887f4762736e9e48f5295\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2a330b726f4887f4762736e9e48f5295\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\f59abb9970d412e1296341dc57b5ce21\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\f59abb9970d412e1296341dc57b5ce21\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\5e7b774bf300663f6ca8fd950afea086\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\5e7b774bf300663f6ca8fd950afea086\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\86d4723b8ae31b8098892f694aa95bba\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\86d4723b8ae31b8098892f694aa95bba\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\80b3ee3d20a7ac19bedf2f2df0f9b07b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\80b3ee3d20a7ac19bedf2f2df0f9b07b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\75508a9a38fa1d7eeb580a9dbe31ddf9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\75508a9a38fa1d7eeb580a9dbe31ddf9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\c2d1cea9dcbf0761b236b340c0a42e0d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\c2d1cea9dcbf0761b236b340c0a42e0d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\b0484bbb024cd1e251a5e208c8412d22\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\b0484bbb024cd1e251a5e208c8412d22\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\dfa81b7539542aafff65e464b8dbb933\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\dfa81b7539542aafff65e464b8dbb933\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\4e15c005e791d68890b77b0adf11a112\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\4e15c005e791d68890b77b0adf11a112\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\ec6d2b97ead026f94e5f0800802a0a22\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\ec6d2b97ead026f94e5f0800802a0a22\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\fde433967bff261baf5e2acc8a1bbb9e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\fde433967bff261baf5e2acc8a1bbb9e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\b2ecfca523b4d3b6f80309228180a73f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\b2ecfca523b4d3b6f80309228180a73f\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:28:5-74
+	android:targetSdkVersion
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:28:42-71
+	android:minSdkVersion
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:28:15-41
+		INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:29:5-69
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:29:22-66
+uses-feature#android.hardware.telephony
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:30:5-88
+	android:required
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:30:61-85
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:30:19-60
+uses-feature#android.hardware.camera
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:31:5-60
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:31:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:32:5-65
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:32:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:33:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:34:22-78
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:35:5-81
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:35:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:36:5-68
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:36:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:37:5-81
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:37:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:38:5-79
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:38:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:39:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\8e4216bcc87916914576cb664614ca05\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\8e4216bcc87916914576cb664614ca05\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:39:22-64
+uses-feature#android.hardware.location.gps
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:40:5-66
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:40:19-63
+uses-feature#0x00020000
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:41:5-78
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\8e4216bcc87916914576cb664614ca05\AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\8e4216bcc87916914576cb664614ca05\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:41:19-51
+	android:required
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:41:52-75
+uses-feature#android.hardware.location
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:42:5-62
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:42:19-59
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:43:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\8e4216bcc87916914576cb664614ca05\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\8e4216bcc87916914576cb664614ca05\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:43:22-76
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:13:13-134
+	android:resource
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:13:75-131
+	android:name
+		ADDED from C:\Users\marki\Google Drive\Programming\College\Tests\phonegaptest\HarpBeta\platforms\android\app\src\main\AndroidManifest.xml:13:24-74
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\ShortcutBadger-1.1.22.aar\e085a5a26e18cf6bb8537ecf7c82293b\AndroidManifest.xml:50:22-86
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\e5a50b972629fcff1ca9afc226f04407\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\e5a50b972629fcff1ca9afc226f04407\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\e5a50b972629fcff1ca9afc226f04407\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\marki\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\e5a50b972629fcff1ca9afc226f04407\AndroidManifest.xml:24:13-79
